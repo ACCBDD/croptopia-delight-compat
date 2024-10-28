@@ -101,12 +101,20 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:appleskin-248787:${appleskin_id}")
     runtimeOnly fg.deobf("curse.maven:patchouli-306770:${patchouli_id}")
     // We add the full version to localRuntime so that we do not publish a dependency on it
-    if (runtime_recipe_viewer == "jei") {
-        runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
-    } else if (runtime_recipe_viewer == "rei") {
-        runtimeOnly fg.deobf("me.shedaniel:RoughlyEnoughItems-forge:${rei_version}")
-    } else if (runtime_recipe_viewer == "emi") {
-        runtimeOnly fg.deobf("dev.emi:emi-forge:${emi_version}")
+    switch (runtime_recipe_viewer) {
+        case "jei":
+            runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+            break
+        case "rei+":
+            runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+        case "rei":
+            runtimeOnly fg.deobf("me.shedaniel:RoughlyEnoughItems-forge:${rei_version}")
+            break
+        case "emi+":
+            runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+        case "emi":
+            runtimeOnly fg.deobf("dev.emi:emi-forge:${emi_version}")
+            break
     }
 
     // For more info:
@@ -122,6 +130,8 @@ tasks.named('processResources', ProcessResources).configure {
             loader_version_range: loader_version_range,
             mod_id              : mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
             mod_authors         : mod_authors, mod_description: mod_description,
+            croptopia_range     : croptopia_range,
+            fd_range            : fd_range
     ]
     inputs.properties replaceProperties
 

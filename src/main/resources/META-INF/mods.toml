@@ -33,3 +33,17 @@ description='''${mod_description}'''
     versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="croptopia"
+    mandatory=true
+    versionRange="${croptopia_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="farmersdelight"
+    mandatory=true
+    versionRange="${fd_range}"
+    ordering="NONE"
+    side="BOTH"
