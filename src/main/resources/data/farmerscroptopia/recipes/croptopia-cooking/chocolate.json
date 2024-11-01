@@ -4,13 +4,14 @@
   "experience": 0.8,
   "ingredients": [
     {
-      "tag": "forge:strawberries"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:butters"
     }
   ],
   "result": {
-    "item": "croptopia:strawberry_jam"
+    "item": "croptopia:chocolate",
+    "count": 4
   }
 }

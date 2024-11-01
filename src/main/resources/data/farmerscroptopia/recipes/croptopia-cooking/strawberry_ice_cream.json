@@ -8,9 +8,15 @@
     },
     {
       "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:milks"
     }
   ],
   "result": {
-    "item": "croptopia:strawberry_jam"
+    "item": "croptopia:strawberry_ice_cream"
   }
 }

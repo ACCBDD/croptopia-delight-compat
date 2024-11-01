@@ -4,13 +4,19 @@
   "experience": 0.8,
   "ingredients": [
     {
-      "tag": "forge:strawberries"
+      "tag": "forge:vanilla"
     },
     {
       "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:milks"
     }
   ],
   "result": {
-    "item": "croptopia:strawberry_jam"
+    "item": "croptopia:vanilla_ice_cream"
   }
 }

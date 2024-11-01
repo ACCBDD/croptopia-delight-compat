@@ -1,16 +1,17 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 0.5,
+  "experience": 0.8,
   "ingredients": [
     {
-      "tag": "forge:grapes"
+      "tag": "forge:milks"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:salts"
     }
   ],
   "result": {
-    "item": "croptopia:grape_jam"
+    "item": "croptopia:cheese",
+    "count": 1
   }
 }

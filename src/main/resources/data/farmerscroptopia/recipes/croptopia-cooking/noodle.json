@@ -4,13 +4,17 @@
   "experience": 0.8,
   "ingredients": [
     {
-      "tag": "forge:strawberries"
+      "tag": "forge:water_bottles"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:salts"
+    },
+    {
+      "tag": "forge:flour"
     }
   ],
   "result": {
-    "item": "croptopia:strawberry_jam"
+    "item": "croptopia:noodle",
+    "count": 1
   }
 }
