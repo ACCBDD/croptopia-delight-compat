@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "neoforge:cooked_bacon"
+    },
+    {
+      "tag": "neoforge:cooked_bacon"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "neoforge:cooked_eggs"
+    },
+    {
+      "tag": "neoforge:cooked_eggs"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:bacon_and_eggs"
+  }
+}

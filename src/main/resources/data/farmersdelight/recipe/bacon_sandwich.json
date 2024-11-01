@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "neoforge:bread"
+    },
+    {
+      "tag": "neoforge:cooked_bacon"
+    },
+    {
+      "tag": "neoforge:salad_ingredients"
+    },
+    {
+      "tag": "neoforge:crops/tomato"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:bacon_sandwich"
+  }
+}
