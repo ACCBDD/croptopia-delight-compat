@@ -52,5 +52,4 @@ jobs:
           version-type: release
 
           loaders: forge
-          game-versions: "${{env.MINECRAFT.VERSION}}"
           java: "${{env.JAVA_VERSION}}"
