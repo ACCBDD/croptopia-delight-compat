@@ -1,5 +1,5 @@
 ---
-name: Addon Compatibility
+name: Addon compatibility
 about: Request compatibility for an addon
 title: Compatibility Request
 labels: enhancement
