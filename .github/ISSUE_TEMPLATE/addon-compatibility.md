@@ -7,8 +7,6 @@ assignees: ACCBDD
 
 ---
 
-**Addon Compatibility Request**
-
 **Name of the addon**
 The name of the addon you'd like compatibility for
 
