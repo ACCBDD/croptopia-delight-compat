@@ -3,19 +3,19 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "neoforge:melons"
+      "tag": "c:melons"
     },
     {
-      "tag": "neoforge:melons"
+      "tag": "c:melons"
     },
     {
       "item": "minecraft:sugar"
     },
     {
-      "tag": "neoforge:melons"
+      "tag": "c:melons"
     },
     {
-      "tag": "neoforge:melons"
+      "tag": "c:melons"
     },
     {
       "item": "minecraft:glass_bottle"

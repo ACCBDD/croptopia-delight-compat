@@ -1,7 +1,6 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 0.8,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "minecraft:potato"
@@ -13,6 +12,7 @@
       "tag": "c:olive_oils"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:french_fries",
     "count": 1

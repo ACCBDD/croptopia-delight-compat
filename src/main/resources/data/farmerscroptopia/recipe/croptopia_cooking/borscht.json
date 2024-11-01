@@ -1,7 +1,6 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 0.8,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "minecraft:carrot"
@@ -22,8 +21,9 @@
       "tag": "c:cabbage"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "count": 2,
-    "item": "croptopia:borscht"
+    "id": "croptopia:borscht"
   }
 }

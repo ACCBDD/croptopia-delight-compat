@@ -1,7 +1,6 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 200,
-  "experience": 0.8,
+  "experience": 1.0,
   "ingredients": [
     {
       "item": "croptopia:burrito"
@@ -10,6 +9,7 @@
       "tag": "c:flour"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chimichanga",
     "count": 1
