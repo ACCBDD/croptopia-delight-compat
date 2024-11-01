@@ -66,14 +66,14 @@ for file in input_files:
           "parent": "minecraft:recipes/root",
           "rewards": {
             "recipes": [
-              'farmerscroptopia:' + out_prepend + file[6:]
+              'farmerscroptopia:' + out_prepend + file[6:-5]
             ]
           },
           "criteria": {
             "has_the_recipe": {
               "trigger": "minecraft:recipe_unlocked",
               "conditions": {
-                "recipe": in_namespace + ':' + in_prepend + file[6:]
+                "recipe": in_namespace + ':' + in_prepend + file[6:-5]
               }
             }
           },
