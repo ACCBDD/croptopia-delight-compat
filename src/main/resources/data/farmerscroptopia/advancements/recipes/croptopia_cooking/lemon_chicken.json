@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/lemon_chicken.json"
+      "farmerscroptopia:croptopia_cooking/lemon_chicken"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:lemon_chicken.json"
+        "recipe": "croptopia:lemon_chicken"
       }
     }
   },

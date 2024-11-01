@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/vegetable_soup.json"
+      "farmerscroptopia:farmersdelight_crafting/vegetable_soup"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/vegetable_soup.json"
+        "recipe": "farmersdelight:cooking/vegetable_soup"
       }
     }
   },

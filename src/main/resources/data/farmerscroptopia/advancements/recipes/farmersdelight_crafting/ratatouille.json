@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/ratatouille.json"
+      "farmerscroptopia:farmersdelight_crafting/ratatouille"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/ratatouille.json"
+        "recipe": "farmersdelight:cooking/ratatouille"
       }
     }
   },

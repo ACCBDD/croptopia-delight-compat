@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/pumpkin_soup.json"
+      "farmerscroptopia:croptopia_cooking/pumpkin_soup"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:pumpkin_soup.json"
+        "recipe": "croptopia:pumpkin_soup"
       }
     }
   },

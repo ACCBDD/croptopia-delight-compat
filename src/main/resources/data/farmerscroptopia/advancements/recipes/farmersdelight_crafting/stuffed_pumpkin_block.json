@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/stuffed_pumpkin_block.json"
+      "farmerscroptopia:farmersdelight_crafting/stuffed_pumpkin_block"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/stuffed_pumpkin_block.json"
+        "recipe": "farmersdelight:cooking/stuffed_pumpkin_block"
       }
     }
   },

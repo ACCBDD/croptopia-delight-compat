@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/onion_rings.json"
+      "farmerscroptopia:croptopia_cooking/onion_rings"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:onion_rings.json"
+        "recipe": "croptopia:onion_rings"
       }
     }
   },

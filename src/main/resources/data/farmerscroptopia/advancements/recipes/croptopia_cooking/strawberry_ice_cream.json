@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/strawberry_ice_cream.json"
+      "farmerscroptopia:croptopia_cooking/strawberry_ice_cream"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:strawberry_ice_cream.json"
+        "recipe": "croptopia:strawberry_ice_cream"
       }
     }
   },

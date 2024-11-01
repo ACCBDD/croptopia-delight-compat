@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/rabbit_stew.json"
+      "farmerscroptopia:farmersdelight_crafting/rabbit_stew"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/rabbit_stew.json"
+        "recipe": "farmersdelight:cooking/rabbit_stew"
       }
     }
   },

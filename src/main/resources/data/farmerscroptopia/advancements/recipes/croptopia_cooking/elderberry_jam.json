@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/elderberry_jam.json"
+      "farmerscroptopia:croptopia_cooking/elderberry_jam"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:elderberry_jam.json"
+        "recipe": "croptopia:elderberry_jam"
       }
     }
   },

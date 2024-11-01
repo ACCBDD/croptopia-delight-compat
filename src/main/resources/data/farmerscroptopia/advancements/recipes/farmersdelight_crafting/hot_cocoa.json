@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/hot_cocoa.json"
+      "farmerscroptopia:farmersdelight_crafting/hot_cocoa"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/hot_cocoa.json"
+        "recipe": "farmersdelight:cooking/hot_cocoa"
       }
     }
   },

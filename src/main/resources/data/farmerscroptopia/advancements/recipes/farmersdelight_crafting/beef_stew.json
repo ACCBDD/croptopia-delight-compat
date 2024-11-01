@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/beef_stew.json"
+      "farmerscroptopia:farmersdelight_crafting/beef_stew"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/beef_stew.json"
+        "recipe": "farmersdelight:cooking/beef_stew"
       }
     }
   },

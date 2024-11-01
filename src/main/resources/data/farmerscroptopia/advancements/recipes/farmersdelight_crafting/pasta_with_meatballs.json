@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/pasta_with_meatballs.json"
+      "farmerscroptopia:farmersdelight_crafting/pasta_with_meatballs"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/pasta_with_meatballs.json"
+        "recipe": "farmersdelight:cooking/pasta_with_meatballs"
       }
     }
   },

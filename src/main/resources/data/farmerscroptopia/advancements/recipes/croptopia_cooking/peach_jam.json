@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/peach_jam.json"
+      "farmerscroptopia:croptopia_cooking/peach_jam"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:peach_jam.json"
+        "recipe": "croptopia:peach_jam"
       }
     }
   },

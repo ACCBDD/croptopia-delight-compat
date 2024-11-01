@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/cabbage_rolls.json"
+      "farmerscroptopia:farmersdelight_crafting/cabbage_rolls"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/cabbage_rolls.json"
+        "recipe": "farmersdelight:cooking/cabbage_rolls"
       }
     }
   },

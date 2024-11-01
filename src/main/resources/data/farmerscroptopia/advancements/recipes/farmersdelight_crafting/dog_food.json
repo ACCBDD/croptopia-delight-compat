@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/dog_food.json"
+      "farmerscroptopia:farmersdelight_crafting/dog_food"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/dog_food.json"
+        "recipe": "farmersdelight:cooking/dog_food"
       }
     }
   },

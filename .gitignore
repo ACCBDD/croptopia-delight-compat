@@ -22,5 +22,9 @@ eclipse
 runs_forge
 runs_data_forge
 
+# generator input/output
+generator/input
+generator/output
+
 # Files from Forge MDK
 forge*changelog.txt

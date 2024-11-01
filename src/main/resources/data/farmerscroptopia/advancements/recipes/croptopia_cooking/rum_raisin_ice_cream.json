@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/rum_raisin_ice_cream.json"
+      "farmerscroptopia:croptopia_cooking/rum_raisin_ice_cream"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:rum_raisin_ice_cream.json"
+        "recipe": "croptopia:rum_raisin_ice_cream"
       }
     }
   },

@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/cheese.json"
+      "farmerscroptopia:croptopia_cooking/cheese"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:cheese.json"
+        "recipe": "croptopia:cheese"
       }
     }
   },

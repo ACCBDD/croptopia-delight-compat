@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/chili_relleno.json"
+      "farmerscroptopia:croptopia_cooking/chili_relleno"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:chili_relleno.json"
+        "recipe": "croptopia:chili_relleno"
       }
     }
   },

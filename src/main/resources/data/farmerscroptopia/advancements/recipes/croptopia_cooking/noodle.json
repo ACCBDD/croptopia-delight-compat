@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/noodle.json"
+      "farmerscroptopia:croptopia_cooking/noodle"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:noodle.json"
+        "recipe": "croptopia:noodle"
       }
     }
   },

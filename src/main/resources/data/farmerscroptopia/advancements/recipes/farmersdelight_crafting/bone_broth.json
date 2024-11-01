@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/bone_broth.json"
+      "farmerscroptopia:farmersdelight_crafting/bone_broth"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/bone_broth.json"
+        "recipe": "farmersdelight:cooking/bone_broth"
       }
     }
   },

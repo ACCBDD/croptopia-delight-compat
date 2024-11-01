@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:farmersdelight_crafting/chicken_soup.json"
+      "farmerscroptopia:farmersdelight_crafting/chicken_soup"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "farmersdelight:cooking/chicken_soup.json"
+        "recipe": "farmersdelight:cooking/chicken_soup"
       }
     }
   },

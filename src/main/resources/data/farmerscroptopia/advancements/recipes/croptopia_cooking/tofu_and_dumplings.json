@@ -2,14 +2,14 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "farmerscroptopia:croptopia_cooking/tofu_and_dumplings.json"
+      "farmerscroptopia:croptopia_cooking/tofu_and_dumplings"
     ]
   },
   "criteria": {
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "croptopia:tofu_and_dumplings.json"
+        "recipe": "croptopia:tofu_and_dumplings"
       }
     }
   },
