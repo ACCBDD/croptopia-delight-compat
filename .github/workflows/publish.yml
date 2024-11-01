@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  build-20:
+  build-21:
     runs-on: ubuntu-latest
     env:
       MINECRAFT_VERSION: 1.20.1
@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: ./gradlew clean build
 
-      - name: Publish to Curseforge
+      - name: Publish to Curseforge & Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           curseforge-id: 1132546
