@@ -18,6 +18,7 @@
       "item": "minecraft:egg"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:rum_raisin_ice_cream",
     "count": 1

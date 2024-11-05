@@ -15,6 +15,7 @@
       "tag": "c:flour"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:onion_rings",
     "count": 1

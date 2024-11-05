@@ -15,6 +15,7 @@
       "item": "minecraft:sugar"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chocolate_ice_cream",
     "count": 1

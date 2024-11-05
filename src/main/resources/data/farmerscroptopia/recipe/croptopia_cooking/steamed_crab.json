@@ -9,6 +9,7 @@
       "tag": "c:water_bottles"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "count": 1,
     "id": "croptopia:steamed_crab"

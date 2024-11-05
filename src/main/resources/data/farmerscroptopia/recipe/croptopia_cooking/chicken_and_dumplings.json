@@ -12,6 +12,7 @@
       "item": "minecraft:chicken"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chicken_and_dumplings",
     "count": 1

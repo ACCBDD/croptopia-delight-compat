@@ -9,6 +9,7 @@
       "tag": "c:flour"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chimichanga",
     "count": 1

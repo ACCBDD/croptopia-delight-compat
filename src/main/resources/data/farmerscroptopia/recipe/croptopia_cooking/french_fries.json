@@ -12,6 +12,7 @@
       "tag": "c:olive_oils"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:french_fries",
     "count": 1

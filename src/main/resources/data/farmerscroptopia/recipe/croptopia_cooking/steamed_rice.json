@@ -12,6 +12,7 @@
       "tag": "c:water_bottles"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:steamed_rice",
     "count": 1

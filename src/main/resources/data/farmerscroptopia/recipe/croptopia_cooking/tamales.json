@@ -21,6 +21,7 @@
       "tag": "c:chile_peppers"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:tamales",
     "count": 2

@@ -12,6 +12,7 @@
       "tag": "c:flour"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:noodle",
     "count": 1

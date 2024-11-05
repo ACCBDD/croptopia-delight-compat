@@ -15,6 +15,7 @@
       "tag": "croptopia:chicken_replacements"
     }
   ],
+  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:lemon_chicken",
     "count": 1
