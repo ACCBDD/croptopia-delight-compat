@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:doughs"
@@ -12,7 +13,6 @@
       "tag": "c:tofu"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:tofu_and_dumplings",
     "count": 1

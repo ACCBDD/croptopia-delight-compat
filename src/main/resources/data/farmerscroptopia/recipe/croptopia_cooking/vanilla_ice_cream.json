@@ -1,5 +1,6 @@
 {
   "type": "farmersdelight:cooking",
+  "cookingtime": 200,
   "experience": 0.8,
   "ingredients": [
     {
@@ -15,8 +16,8 @@
       "tag": "c:milks"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
+    "count": 1,
     "id": "croptopia:vanilla_ice_cream"
   }
 }

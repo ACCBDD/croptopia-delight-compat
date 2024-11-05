@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:milks"
@@ -9,7 +10,6 @@
       "tag": "c:salts"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:cheese",
     "count": 1

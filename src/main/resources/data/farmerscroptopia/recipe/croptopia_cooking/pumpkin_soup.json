@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:onions"
@@ -21,7 +22,11 @@
       "tag": "c:salts"
     }
   ],
-  "recipe_book_tab": "misc",
+  "pattern": [
+    "123",
+    " 5 ",
+    "464"
+  ],
   "result": {
     "count": 2,
     "id": "croptopia:pumpkin_soup"

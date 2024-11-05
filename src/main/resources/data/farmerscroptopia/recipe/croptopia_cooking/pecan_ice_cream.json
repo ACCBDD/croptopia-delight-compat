@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:pecans"
@@ -15,8 +16,8 @@
       "tag": "c:milks"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
+    "count": 1,
     "id": "croptopia:pecan_ice_cream"
   }
 }

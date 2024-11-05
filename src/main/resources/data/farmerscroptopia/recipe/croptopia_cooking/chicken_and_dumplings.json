@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:doughs"
@@ -12,7 +13,6 @@
       "item": "minecraft:chicken"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chicken_and_dumplings",
     "count": 1

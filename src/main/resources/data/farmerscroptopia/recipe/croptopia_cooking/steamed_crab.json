@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:crabs"
@@ -9,8 +10,8 @@
       "tag": "c:water_bottles"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
+    "count": 1,
     "id": "croptopia:steamed_crab"
   }
 }

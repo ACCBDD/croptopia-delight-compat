@@ -3,6 +3,6 @@
   "values": [
     "croptopia:cooked_bacon",
     "farmersdelight:cooked_bacon",
-    "c:foods/cooked_bacon"
+    "#c:foods/cooked_bacon"
   ]
 }

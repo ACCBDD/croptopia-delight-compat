@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:rice"
@@ -12,7 +13,6 @@
       "tag": "c:water_bottles"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:steamed_rice",
     "count": 1

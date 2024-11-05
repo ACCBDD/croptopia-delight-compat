@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:lemons"
@@ -15,7 +16,6 @@
       "tag": "croptopia:chicken_replacements"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:lemon_chicken",
     "count": 1

@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "item": "minecraft:cocoa_beans"
@@ -9,7 +10,6 @@
       "tag": "c:butters"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chocolate",
     "count": 4

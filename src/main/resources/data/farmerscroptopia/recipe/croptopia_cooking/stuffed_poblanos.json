@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "croptopia:beef_replacements"
@@ -21,7 +22,6 @@
       "tag": "c:rice"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:stuffed_poblanos",
     "count": 1

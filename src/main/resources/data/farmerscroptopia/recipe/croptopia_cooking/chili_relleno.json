@@ -1,6 +1,7 @@
 {
   "type": "farmersdelight:cooking",
-  "experience": 1.0,
+  "cookingtime": 200,
+  "experience": 0.8,
   "ingredients": [
     {
       "item": "minecraft:egg"
@@ -18,7 +19,6 @@
       "tag": "c:salts"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
     "id": "croptopia:chili_relleno",
     "count": 1

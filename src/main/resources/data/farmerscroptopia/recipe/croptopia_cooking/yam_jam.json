@@ -1,7 +1,7 @@
 {
   "type": "farmersdelight:cooking",
   "cookingtime": 200,
-  "experience": 0.5,
+  "experience": 0.8,
   "ingredients": [
     {
       "tag": "c:yams"
@@ -16,8 +16,8 @@
       "tag": "c:milks"
     }
   ],
-  "recipe_book_tab": "misc",
   "result": {
-    "id": "croptopia:yam_jam"
+    "id": "croptopia:yam_jam",
+    "count": 1
   }
 }
