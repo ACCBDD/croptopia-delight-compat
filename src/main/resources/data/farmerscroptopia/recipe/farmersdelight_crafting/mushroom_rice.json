@@ -2,12 +2,6 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
       "item": "minecraft:brown_mushroom"
     },
     {
@@ -16,17 +10,27 @@
     {
       "tag": "c:crops/rice"
     },
-    [
-      {
-        "item": "minecraft:carrot"
-      },
-      {
-        "item": "minecraft:potato"
-      }
-    ]
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:potato"
+        }
+      ]
+    },
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
   ],
-  "category": "meals",
+  "category": "misc",
   "result": {
+    "count": 1,
     "id": "farmersdelight:mushroom_rice"
   }
 }

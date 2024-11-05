@@ -2,17 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
+      "tag": "c:crops/rice"
+    },
+    {
       "item": "croptopia:cooking_pot"
     },
     {
       "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:crops/rice"
     }
   ],
   "category": "misc",
   "result": {
+    "count": 1,
     "id": "farmersdelight:cooked_rice"
   }
 }

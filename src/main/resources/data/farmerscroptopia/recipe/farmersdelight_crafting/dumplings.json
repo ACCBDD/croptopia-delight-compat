@@ -2,10 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "tag": "c:dough"
+      "tag": "c:foods/dough"
     },
     {
       "tag": "c:crops/cabbage"
@@ -13,20 +10,26 @@
     {
       "tag": "c:crops/onion"
     },
-    [
-      {
-        "tag": "c:raw_chicken"
-      },
-      {
-        "tag": "c:raw_pork"
-      },
-      {
-        "tag": "c:raw_beef"
-      },
-      {
-        "item": "minecraft:brown_mushroom"
-      }
-    ]
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "c:foods/raw_chicken"
+        },
+        {
+          "tag": "c:foods/raw_pork"
+        },
+        {
+          "tag": "c:foods/raw_beef"
+        },
+        {
+          "item": "minecraft:brown_mushroom"
+        }
+      ]
+    },
+    {
+      "item": "croptopia:cooking_pot"
+    }
   ],
   "category": "misc",
   "result": {

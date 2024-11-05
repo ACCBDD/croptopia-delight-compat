@@ -2,12 +2,6 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "croptopia:cooking_pot"
-    },
-    {
-      "item": "minecraft:bowl"
-    },
-    {
       "item": "minecraft:baked_potato"
     },
     {
@@ -16,17 +10,27 @@
     {
       "item": "minecraft:carrot"
     },
-    [
-      {
-        "item": "minecraft:brown_mushroom"
-      },
-      {
-        "item": "minecraft:red_mushroom"
-      }
-    ]
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:brown_mushroom"
+        },
+        {
+          "item": "minecraft:red_mushroom"
+        }
+      ]
+    },
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
   ],
-  "category": "meals",
+  "category": "misc",
   "result": {
+    "count": 1,
     "id": "minecraft:rabbit_stew"
   }
 }

@@ -2,26 +2,27 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "croptopia:cooking_pot"
+      "tag": "c:foods/pasta"
     },
     {
-      "item": "minecraft:bowl"
-    },
-    {
-      "tag": "c:pasta"
-    },
-    {
-      "tag": "c:cooked_eggs"
+      "tag": "c:foods/cooked_egg"
     },
     {
       "item": "minecraft:dried_kelp"
     },
     {
-      "tag": "c:raw_pork"
+      "tag": "c:foods/raw_pork"
+    },
+    {
+      "item": "croptopia:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
     }
   ],
-  "category": "meals",
+  "category": "misc",
   "result": {
+    "count": 1,
     "id": "farmersdelight:noodle_soup"
   }
 }
