@@ -21,6 +21,8 @@ build
 eclipse
 runs_forge
 runs_data_forge
+runs_neoforge
+runs_data_neoforge
 
 # generator input/output
 generator/input/
