@@ -117,6 +117,13 @@ dependencies {
             break
     }
 
+    //extra compat
+    runtimeOnly fg.deobf("curse.maven:farmers-respite-551453:5543547")
+    runtimeOnly fg.deobf("curse.maven:nethers-delight-496394:4736227")
+    runtimeOnly fg.deobf("curse.maven:oceans-delight-841262:4652060")
+    runtimeOnly fg.deobf("curse.maven:enders-delight-827163:4760462")
+
+
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
