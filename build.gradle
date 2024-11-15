@@ -102,6 +102,8 @@ dependencies {
 
     localRuntime "curse.maven:appleskin-248787:${appleskin_id}"
     localRuntime "curse.maven:jei-238222:${jei_id}"
+    localRuntime "curse.maven:enders-delight-827163:5879700"
+
 }
 
 tasks.withType(ProcessResources).configureEach {

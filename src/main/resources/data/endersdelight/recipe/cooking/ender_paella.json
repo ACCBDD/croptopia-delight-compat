@@ -1,7 +1,7 @@
 {
-  "forge:conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "endersdelight"
     }
   ],
@@ -18,14 +18,14 @@
       "item": "minecraft:chorus_flower"
     },
     {
-      "tag": "forge:grain/rice"
+      "tag": "c:grain/rice"
     }
   ],
   "result": {
-    "item": "endersdelight:ender_paella"
+    "id": "endersdelight:ender_paella"
   },
   "container": {
-    "item": "endersdelight:shulker_bowl"
+    "id": "endersdelight:shulker_bowl"
   },
   "experience": 1.0,
   "cookingtime": 200

@@ -1,7 +1,7 @@
 {
-  "forge:conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "endersdelight"
     }
   ],
@@ -15,20 +15,20 @@
       "item": "minecraft:chorus_fruit"
     },
     {
-      "tag": "forge:rice"
+      "tag": "c:grain/rice"
     },
     {
-      "tag": "forge:vegetables/tomato"
+      "tag": "c:crops/tomato"
     },
     {
       "item": "minecraft:brown_mushroom"
     }
   ],
   "result": {
-    "item": "endersdelight:stuffed_shulker"
+    "id": "endersdelight:stuffed_shulker"
   },
   "container": {
-    "item": "minecraft:shulker_shell"
+    "id": "minecraft:shulker_shell"
   },
   "experience": 1.0,
   "cookingtime": 200

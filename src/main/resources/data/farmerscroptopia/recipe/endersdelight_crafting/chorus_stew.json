@@ -1,7 +1,7 @@
 {
-  "forge:conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "endersdelight"
     }
   ],
@@ -11,23 +11,16 @@
       "item": "croptopia:cooking_pot"
     },
     {
-      "tag": "endersdelight:enderman_sight"
-    },
-    {
-      "tag": "endersdelight:shulker_loot"
+      "item": "minecraft:chorus_fruit"
     },
     {
       "item": "minecraft:chorus_flower"
     },
     {
-      "tag": "forge:grain/rice"
-    },
-    {
       "item": "endersdelight:shulker_bowl"
     }
   ],
-  "category": "drinks",
   "result": {
-    "item": "endersdelight:ender_paella"
+    "id": "endersdelight:chorus_stew"
   }
 }
