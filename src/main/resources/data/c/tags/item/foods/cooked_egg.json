@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#c:cooked_eggs"
+    "farmersdelight:fried_egg",
+    "croptopia:sunny_side_eggs",
+    "croptopia:scrambled_eggs"
   ]
 }
