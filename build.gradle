@@ -83,10 +83,6 @@ repositories {
         // REI
         url "https://maven.shedaniel.me/"
     }
-    flatDir {
-        name "libs"
-        dirs "libs"
-    }
     mavenLocal()
 }
 
