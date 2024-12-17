@@ -48,6 +48,8 @@ jobs:
 
           modrinth-id: nyIn6Lmk
           modrinth-token: "${{env.MODRINTH_TOKEN}}"
+          modrinth-dependencies: |
+            farmers-delight@1.21.1-1.2.6(required)
 
           version-type: release
 
