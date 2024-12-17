@@ -47,31 +47,54 @@ input_files = glob.glob('input/*', recursive=True)
 
 
 # create advancements for all recipes
+# for file in input_files:
+#     in_namespace = 'farmersdelight'  # the namespace you want to check recipe for
+#     in_prepend = 'cooking/'  # extra stuff before actual name
+#     out_prepend = 'farmersdelight_crafting/'  # extra stuff before the actual name
+#     with open(file, 'r') as f:
+#         advancement_json = {
+#             "parent": "minecraft:recipes/root",
+#             "rewards": {
+#                 "recipes": [
+#                     'farmerscroptopia:' + out_prepend + file[6:-5]
+#                 ]
+#             },
+#             "criteria": {
+#                 "has_the_recipe": {
+#                     "trigger": "minecraft:recipe_unlocked",
+#                     "conditions": {
+#                         "recipe": in_namespace + ':' + in_prepend + file[6:-5]
+#                     }
+#                 }
+#             },
+#             "requirements": [
+#                 [
+#                     "has_the_recipe"
+#                 ]
+#             ]
+#         }
+#         with open('output/' + file[6:], 'w') as g:
+#             json.dump(advancement_json, g, ensure_ascii=False, indent=2)
+
+# convert fd cooking recipes to croptopia
 for file in input_files:
-    in_namespace = 'farmersdelight'  # the namespace you want to check recipe for
-    in_prepend = 'cooking/'  # extra stuff before actual name
-    out_prepend = 'farmersdelight_crafting/'  # extra stuff before the actual name
     with open(file, 'r') as f:
-        advancement_json = {
-            "parent": "minecraft:recipes/root",
-            "rewards": {
-                "recipes": [
-                    'farmerscroptopia:' + out_prepend + file[6:-5]
-                ]
-            },
-            "criteria": {
-                "has_the_recipe": {
-                    "trigger": "minecraft:recipe_unlocked",
-                    "conditions": {
-                        "recipe": in_namespace + ':' + in_prepend + file[6:-5]
-                    }
+        input_recipe = json.load(f)
+        converted_recipe = {
+            "forge:conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "seeddelight"
                 }
-            },
-            "requirements": [
-                [
-                    "has_the_recipe"
-                ]
-            ]
+            ],
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": input_recipe['ingredients'],
+            "result": input_recipe['result']
         }
+        converted_recipe['ingredients'].insert(0, {"item": "croptopia:cooking_pot"})
+        if 'container' in input_recipe:
+            converted_recipe['ingredients'].append(input_recipe['container'])
+        else:
+            converted_recipe['ingredients'].append({"item": "minecraft:bowl"})
         with open('output/' + file[6:], 'w') as g:
-            json.dump(advancement_json, g, ensure_ascii=False, indent=2)
+            json.dump(converted_recipe, g, ensure_ascii=False, indent=2)
