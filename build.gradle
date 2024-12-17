@@ -84,6 +84,9 @@ repositories {
         url "https://maven.shedaniel.me/"
     }
     mavenLocal()
+    flatDir {
+        dir 'libs'
+    }
 }
 
 dependencies {
